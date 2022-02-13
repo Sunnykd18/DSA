@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class MajorityElement {
-    static void findMajority(int arr[], int n)
+    static void findMajority(int []arr, int n)
     {
         int maxCount = 0;
         int index = -1; // sentinels
