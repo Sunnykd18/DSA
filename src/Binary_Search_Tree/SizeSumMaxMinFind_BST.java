@@ -149,14 +149,12 @@ public class SizeSumMaxMinFind_BST {    public static class Node{
         int sum = sum(root);
         int max = max(root);
         int min = min(root);
-        int find = find(root);
         int height = height(root);
         System.out.println(size);
         System.out.println(sum);
         System.out.println(max);
         System.out.println(min);
         System.out.println(height);
-        System.out.println(find);
         Display(root);
     }
 
