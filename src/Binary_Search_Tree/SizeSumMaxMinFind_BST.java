@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class SizeSumMaxMinFind_BST {    public static class Node{
+public class SizeSumMaxMinFind_BST {
+    public static class Node{
     int data;
     Node left;
     Node right;
