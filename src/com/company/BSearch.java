@@ -3,7 +3,7 @@ package com.company;
 public class BSearch {
     public static void  main(String[]args){
         int [] a = { -4,-1,3,7,10,11};
-
+        BinarySearch(a,3);
     }
     static int BinarySearch(int [] a ,int key){
 
