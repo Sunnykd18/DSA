@@ -1,7 +1,7 @@
-package com.company;
+package Binary_Search_Tree;
 
-public class BubbleSort {
-    public static void main(String[] args) {
+public class Practice1 {
+    public static void main(String[]args) {
         int[] a = {4, 3, 7, 1, 5};
 
         int n = a.length;
@@ -12,19 +12,15 @@ public class BubbleSort {
                     swapped = true;
                     Swap(a, j + 1, j);
                 }
+                if (!swapped){
+                    break;
+                }
             }
-            if (!swapped){
-                break;
-            }
-
         }
     }
-    static void Swap(int[] a, int i, int j) {
+    static void Swap(int[]a, int i, int j){
         int temp = a[i];
         a[i] = a[j];
         a[j] = temp;
-
     }
-
 }
-
